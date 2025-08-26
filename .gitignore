@@ -14,6 +14,8 @@ app/helper/*.pyd
 app/helper/*.bin
 app/plugins/**
 !app/plugins/__init__.py
+!plugins/example_plugin/**
+plugins_migrations/test_*/**
 config/cookies/**
 config/user.db*
 config/sites/**
